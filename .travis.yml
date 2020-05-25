@@ -1,4 +1,5 @@
 language: java
+jdk: oraclejdk8
 os: osx
 before_deploy:
   - mvn package appbundle:bundle
